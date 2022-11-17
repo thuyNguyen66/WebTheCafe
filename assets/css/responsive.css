@@ -1,0 +1,147 @@
+/* mobile && tablet */
+@media(max-width: 1023px){
+
+}
+
+/* tablet */
+@media(min-width: 740px) and (max-width: 1023px){
+    .down .slider__text-left{
+        width: 250px;
+    }
+    #container{
+        width: 80%;
+    }
+}
+
+/* mobile */
+@media(max-width: 739px){
+    #header{
+        display: none;
+    }
+    .header__logo{
+        line-height: 60px;
+        display: flex;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+        background-color: #191919;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .cup{
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    .menu__bar{
+        display: block;
+        margin-top: -50px;
+        text-align: center;
+        margin-left: 370px;
+        float: left;
+        position: fixed;
+        z-index: 20;
+        
+    }
+    
+    #slider{
+        height: 220px;
+    }
+    .slider__text .slider__text-content{
+        font-size: 30px;
+        width: 100px;
+        margin-top: 50px;
+        line-height: 50px;
+    }
+    .down{
+        margin-top: -120px;
+        text-align: right;
+        font-size: 12px;
+    }
+    .down .slider__text-left{
+        margin: unset;
+        line-height: 28px;
+        margin-left: 10px;
+        width: 250px;
+    }
+    .down .slider__text-right{
+        margin: unset;
+        margin-left: 20px;
+        text-align: center;
+    }
+    #container{
+        width: 95%;
+        font-size: 16px;
+        margin: auto;
+    }
+    .inherit{
+        padding-right: 10px;
+    }
+    #content p{
+        font-size: 1.1rem;
+    }
+    .about__note{
+        height: 180px
+    }
+    input{
+        border: 1px solid;
+    }
+    .mt-40{
+        margin-top: 40px;
+    }
+    .m-40{
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+    .p-0{
+        padding-right: 0px;
+    }
+    .hidden-mobile{
+        display: none !important;
+    }
+    #footer p{
+        display: none;
+    }
+    .header__footer{
+        display: block !important;
+        background-color: #191919;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+    }
+    .header__footer .nav{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    .header__footer .nav li{
+        text-align: center;
+        margin:10px 0;
+        height: 40px;
+        display: block;
+    }
+    
+    .header__footer .nav a{
+        text-decoration: none;
+        line-height: 40px;
+        padding:10px 35%;
+        color: #fff;
+        font-size: 30px;
+    }
+    
+    .header__footer ul li:hover a{
+        cursor: pointer;
+        background-color: #ccc;
+        color:#191919;
+    }
+    
+    #footer{
+        height: 60px;
+    }
+}

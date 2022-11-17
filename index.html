@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+
+    <title>The Cafe</title>
+</head>
+<body>
+    <div id="main">
+        <!-- HEADER -->
+        <div id="header">
+            <ul class="nav row l-12 m-12 hidden-mobile">
+                <li class="col l-3 m-3 c-12"><a href="#">Home</a></li>
+                <li class="col l-3 m-3 c-12"><a href="#about">About</a></li>
+                <li class="col l-3 m-3 c-12"><a href="#menu">Menu</a></li>
+                <li class="col l-3 m-3 c-12"><a href="#where">Where</a></li>
+            </ul>
+        </div>
+        <div class="header__logo row c-12">
+            <h3 class="logo c-6">The Cafe</h3>
+            <h3 class="cup c-6"><i class="fa-solid fa-mug-hot"></i></h3>
+        </div>
+        <!-- SLIDER -->
+    <div id="slider" style="background-image: url('./assets/images/coffeehouse.jpg')">
+        <div class="img">
+        </div>
+        <div class="slider__text">
+            <h1 class="slider__text-content">the Cafe</h1>
+        </div>
+        <!-- <div class="btn row">
+            <p class="btn__left col l-6"><i class="fa-solid fa-angle-left"></i></p>
+            <p class="btn__right col l-6"><i class="fa-solid fa-angle-right"></i></p>
+        </div> -->
+        <div class="down">
+            <p class="slider__text-left">Open from 6am to 5pm</p>
+            <p class="slider__text-right">15 Adr street, 5015</p>
+        </div>
+    </div>
+    <div id="container">
+        <!-- CONTENT -->
+        <div id="content">
+            <div class="about m-80 m-40" id="about">
+                <h3 class="text mb-80">About the cafe</h3> 
+                <p class="mt-80 mt-40 p-0">The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, 
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                
+                <p class="m-30 p-0">In addition to our full espresso and brew bar menu, we serve fresh made
+                    -to-order breakfast and lunch sandwiches, as well as a selection of sides 
+                    and salads and other good stuff.
+                </p>
+                <div class="about__note pr-25 p-0">
+                    <p class="inherit ml-15 m-30">
+                        "Use products from nature for what it's worth - but never too early, 
+                        nor too late." Fresh is the new sweet.
+                    </p>
+                    <p class="ml-15">Chef, Coffeeist and Owner: Liam Brown</p>
+                </div>    
+                <div class="about__img">
+                    <img src="./assets/images/coffeeshop.jpg" alt="">
+                </div>
+                <p class="m-20"><span class="text-hight">Opening hours: </span>everyday from 6am to 5pm.</p>
+                <p class="m-20"><span class="text-hight">Address: </span>15 Adr street, 5015, NY</p>
+            </div>
+            <div class="menu m-80 m-40" id="menu">
+                <h3 class="text">The menu</h3> 
+                <div class="menu__nav">
+                    <div class="menu__header mt-80 mt-40">
+                        <div class="menu__eat eat l-6 m-6 c-6 active">Eat
+                        </div>
+                        <div class="menu__eat drink l-6 m-6 c-6">Drink
+                        </div>
+                    </div>
+                    <div class="menu__content">
+                        <div class="menu__sub-nav sub-eat mb-30">
+                            <li>
+                                <p>Bread Basket</p>
+                                <article>Assortment of fresh baked fruit breads and muffins 5.50</article> 
+                            </li>
+                            <li>
+                                <p>Honey Almond Granola with Fruits</p>
+                                <article>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</article>
+                            </li>
+                            <li>
+                                <p>Belgian Waffle</p>
+                                <article>Vanilla flavored batter with malted flour 7.50</article>
+                            </li>
+                            <li>
+                                <p>Scrambled eggs</p>
+                                <article>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</article>
+                            </li>
+                            <li>
+                                <p>Blueberry Pancakes</p>
+                                <article>With syrup, butter and lots of berries 8.50</article>
+                            </li>
+                        </div>
+                        <div class="menu__sub-nav sub-drink mb-30 hidden">
+                            <li>
+                                <p>Coffee</p>
+                                <article>Regular coffee 2.50</article>
+                            </li>
+                            <li>
+                                <p>Chocolato</p>
+                                <article>Chocolate espresso with milk 4.50</article>
+                            </li>
+                            <li>
+                                <p>Corretto</p>
+                                <article>Whiskey and coffee 5.00</article>
+                            </li>
+                            <li>
+                                <p>Iced tea</p>
+                                <article>Hot tea, except not hot 3.00</article>
+                            </li>
+                            <li>
+                                <p>Soda</p>
+                                <article>Coke, Sprite, Fanta, etc. 2.50</article>
+                            </li>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="menu__img">
+                    <img src="./assets/images/coffeehouse2.jpg" alt="">
+                </div>
+            </div>
+            <div class="where m-80 m-40" id="where">
+                <h3 class="text">Where to find us</h3> 
+                <p class="mb-30 mt-80 mt-40">Find us at some address at some place.</p>
+                
+                <div class="where__img mb-30">
+                    <img src="./assets/images/map.jpg" alt="">
+                </div>
+                <p><span class="text">Fyi!</span> We offer full-service catering for any event, large or small. We 
+                    understand your needs and we will cater the food to satisfy the biggerst 
+                    criteria of them all, both look and taste.
+                </p>
+                <br>
+                <p class="mb-30"><b>Reserve </b>a table, ask for today's special or just send us a message:</p>
+                <!-- Message -->
+                <div class="message">
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="number" placeholder="How many people">
+                        <input type="datetime-local" name="" id="" value="2022-08-13T08:00" 
+                            min="2020-08-08T00:00" max="2022-12-25T00:00"
+                        >
+                        <input type="text" placeholder="Message \ Special requirements">
+                        <button class="btn">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        
+        </div>
+    </div>
+        
+        <!-- FOOTER -->
+        <div id="footer" class="mt-80 mt-40">
+            <div class="header__footer">
+                <ul class="nav">
+                    <li class="c-3"><a href="#"><i class="fa-solid fa-house"> </i></a></li>
+                    <li class="c-3"><a href="#about"><i class="fa-solid fa-store"></i></a></li>
+                    <li class="c-3"><a href="#menu"><i class="fa-solid fa-bars"></i></a></li>
+                    <li class="c-3"><a href="#where"><i class="fa-solid fa-location-dot"></i></a></li>
+                </ul>
+            </div>
+            <p>Powered by  <a href="https://www.w3schools.com/">w3.css</a> </p>
+        </div>
+</body>
+
+<script>
+    var menu = document.querySelector('.menu__header');
+    var drink = document.querySelector('.drink');
+    var eat = document.querySelector('.eat');
+    var menuEat = document.querySelector('.sub-eat');
+    var menuDrink = document.querySelector('.sub-drink');
+
+    menu.addEventListener('click', ()=>{
+        eat.classList.toggle('active');
+        drink.classList.toggle('active');
+        menuEat.classList.toggle('hidden');
+        menuDrink.classList.toggle('hidden')
+    }) 
+</script>
+</html>
